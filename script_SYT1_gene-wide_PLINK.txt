@@ -1,5 +1,5 @@
 # SYT1 Gene-wide analysis
-# performed in PLINK (ref)
+# performed in PLINK (v1.9)
 
   plink.exe  
   --all-pheno 
