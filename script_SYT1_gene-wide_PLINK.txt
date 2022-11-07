@@ -1,5 +1,13 @@
-# SYT1 Gene-wide analysis
 # performed in PLINK (v1.9)
+# creates a gene-SET with all gene region variants 
+
+plink.exe
+  --bfile (bfile.bg)
+  --make-set (genelocalization_file)
+  --out (set_file)
+  --write-set
+
+# SYT1 Gene-wide analysis
 
   plink.exe  
   --all-pheno 
@@ -11,7 +19,7 @@
   --mperm 10000
   --out (output_file)
   --pheno (pheno_file)
-  --set (gene_region_SNP_set)
+  --set (set_file)
   --set-test
 
 
