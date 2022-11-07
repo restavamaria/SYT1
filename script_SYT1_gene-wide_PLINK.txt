@@ -1,0 +1,17 @@
+# SYT1 Gene-wide analysis
+# performed in PLINK (ref)
+
+  plink.exe  
+  --all-pheno 
+  --bfile (bfile.bg)
+  --covar (covar_file)
+  --covar-name (headmotion,age,sex,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10)
+  --hide-covar
+  --linear
+  --mperm 10000
+  --out (output_file)
+  --pheno (pheno_file)
+  --set (gene_region_SNP_set)
+  --set-test
+
+
