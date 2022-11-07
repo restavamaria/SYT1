@@ -22,4 +22,4 @@ plink.exe
   --set (set_file)
   --set-test
 
-## More insights in filenames see (https://www.cog-genomics.org/plink/)
+## More insights in file formats see (https://www.cog-genomics.org/plink/)
